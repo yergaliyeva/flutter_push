@@ -39,14 +39,14 @@ class _MyHomePageState extends State<MyHomePage> {
       backgroundColor: const Color(0xFF282E3D),
       body: Stack(children: [
         const Align(
-          alignment: Alignment(0, -0.9),
+          alignment: Alignment(0, -0.8),
           child: Text(
             'Test your\nreaction speed',
             textAlign: TextAlign.center,
             style: TextStyle(
               color: Colors.white,
               fontSize: 38,
-              fontWeight: FontWeight.bold,
+              fontWeight: FontWeight.w900,
             ),
           ),
         ),
@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ),
         Align(
-          alignment: const Alignment(0, 0.9),
+          alignment: const Alignment(0, 0.8),
           child: GestureDetector(
             onTap: () => setState(() {
               switch (gameState) {
